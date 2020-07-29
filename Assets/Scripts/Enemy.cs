@@ -4,13 +4,22 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] List<Waypoint> Cubes = new List<Waypoint>();
+    [SerializeField] List<Waypoint> Path = new List<Waypoint>();
 
     void Start()
     {
-        foreach (var cube in Cubes)
+        StartCoroutine(FollowPath());
+    }
+
+    IEnumerator FollowPath()
+    {
+        print("Starting patrol...");
+        foreach (var waypoint in Path)
         {
-            print(cube.name);
+            transform.position = new Vector3(waypoint.transform.position.x, transform.position.y, waypoint.transform.position.z + 5);
+            print("Visiting block: " + waypoint.name);
+            yield return new WaitForSeconds(1f);
         }
+        print("Ending patrol");
     }
 }
