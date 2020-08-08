@@ -133,18 +133,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edd1878390696e24eafddbc01d7f7203, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &39085011 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3196245604406695016, guid: 892c8fabe1261ef429fb9fb359e4a7c6,
-    type: 3}
-  m_PrefabInstance: {fileID: 1307721374}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: edd1878390696e24eafddbc01d7f7203, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &62824175 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3196245604406695016, guid: 892c8fabe1261ef429fb9fb359e4a7c6,
@@ -317,7 +305,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startWayPoint: {fileID: 62824175}
-  endWayPoint: {fileID: 39085011}
+  endWayPoint: {fileID: 391234818}
 --- !u!1001 &516816950
 PrefabInstance:
   m_ObjectHideFlags: 0
