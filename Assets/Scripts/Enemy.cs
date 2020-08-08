@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] List<Waypoint> Path = new List<Waypoint>();
-
     void Start()
     {
-        //StartCoroutine(FollowPath());
+        PathFinder pathFinder = FindObjectOfType<PathFinder>();
+        var path = pathFinder.GetPath();
+        StartCoroutine(FollowPath(path));
     }
 
-    IEnumerator FollowPath()
+    IEnumerator FollowPath(List<Waypoint> path)
     {
         print("Starting patrol...");
-        foreach (var waypoint in Path)
+        foreach (var waypoint in path)
         {
             transform.position = new Vector3(waypoint.transform.position.x, transform.position.y, waypoint.transform.position.z + 5);
             print("Visiting block: " + waypoint.name);
