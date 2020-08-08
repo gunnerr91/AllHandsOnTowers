@@ -21,15 +21,15 @@ public class CubeEditor : MonoBehaviour
 
     private void SnapToGrid()
     {
-        var gridPos = waypoint.GetGridPos();
+        int gridSize = waypoint.GetGridSize();
+        var gridPos = waypoint.GetGridPos() * gridSize;
         transform.position = new Vector3(gridPos.x, 0f, gridPos.y);
     }
 
     private void UpdateLabel()
     {
         var labelTextMesh = gameObject.GetComponentInChildren<TextMesh>();
-        var gridSize = waypoint.GetGridSize();
-        var cubeLabel = waypoint.GetGridPos().x / gridSize + "," + waypoint.GetGridPos().y / gridSize;
+        var cubeLabel = waypoint.GetGridPos().x + "," + waypoint.GetGridPos().y;
         gameObject.name = "Grid " + cubeLabel;
         labelTextMesh.text = cubeLabel;
     }
