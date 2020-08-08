@@ -304,7 +304,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad78cfd59b40d9419125cd19c783686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startWayPoint: {fileID: 62824175}
+  startWayPoint: {fileID: 10216396}
   endWayPoint: {fileID: 834623781}
 --- !u!1001 &516816950
 PrefabInstance:
