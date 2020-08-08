@@ -2,6 +2,7 @@
 
 public class Waypoint : MonoBehaviour
 {
+    public bool isExplored = false;
     const int gridSize = 11;
 
     public int GetGridSize() => gridSize;
@@ -13,7 +14,6 @@ public class Waypoint : MonoBehaviour
 
     public void SetTopColor(Color color)
     {
-        print(transform.Find("X_Top"));
         MeshRenderer topMeshRendered = transform.Find("X_Top").GetComponent<MeshRenderer>();
         topMeshRendered.material.color = color;
     }
