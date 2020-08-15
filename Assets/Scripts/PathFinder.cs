@@ -12,10 +12,13 @@ public class PathFinder : MonoBehaviour
 
     public List<Waypoint> GetPath()
     {
-        LoadBlocks();
-        ColorStartAndEndWaypoint();
-        BreadthFirstSearch();
-        CreatePath();
+        if (path.Count == 0)
+        {
+            LoadBlocks();
+            ColorStartAndEndWaypoint();
+            BreadthFirstSearch();
+            CreatePath();
+        }
         return path;
     }
 

@@ -6,6 +6,7 @@ public class Enemy : MonoBehaviour
 {
     void Start()
     {
+        transform.position = new Vector3(transform.position.y, transform.position.y + 10, transform.position.y);
         PathFinder pathFinder = FindObjectOfType<PathFinder>();
         var path = pathFinder.GetPath();
         StartCoroutine(FollowPath(path));
