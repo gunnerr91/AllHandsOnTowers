@@ -17,9 +17,10 @@ public class Enemy : MonoBehaviour
         foreach (var waypoint in path)
         {
             transform.position = new Vector3(waypoint.transform.position.x, transform.position.y, waypoint.transform.position.z + 5);
-            print("Visiting block: " + waypoint.name);
-            yield return new WaitForSeconds(1f);
+            //print("Visiting block: " + waypoint.name);
+            yield return new WaitForSeconds(2f);
         }
         print("Ending patrol");
     }
 }
+ 
