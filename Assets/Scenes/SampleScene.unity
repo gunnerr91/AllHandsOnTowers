@@ -265,7 +265,7 @@ PrefabInstance:
         type: 3}
       propertyPath: targetEnemy
       value: 
-      objectReference: {fileID: 1645043820}
+      objectReference: {fileID: 0}
     - target: {fileID: 5211445479217700459, guid: 22077dbef92bc9748b785b1501074506,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -745,7 +745,7 @@ PrefabInstance:
         type: 3}
       propertyPath: targetEnemy
       value: 
-      objectReference: {fileID: 1645043820}
+      objectReference: {fileID: 0}
     - target: {fileID: 5211445479217700459, guid: 22077dbef92bc9748b785b1501074506,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -819,7 +819,7 @@ PrefabInstance:
         type: 3}
       propertyPath: targetEnemy
       value: 
-      objectReference: {fileID: 1645043820}
+      objectReference: {fileID: 0}
     - target: {fileID: 5211445479217700459, guid: 22077dbef92bc9748b785b1501074506,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -921,7 +921,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ba1dc9a7228c384980c0f910b3e205f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  secondsBetweenSpawns: 2
+  secondsBetweenSpawns: 4.1
   enemyObject: {fileID: 224453633892430210, guid: a133922ad53c00b4fa3f7eba81e305ec,
     type: 3}
 --- !u!4 &397978367 stripped
@@ -4022,7 +4022,7 @@ PrefabInstance:
         type: 3}
       propertyPath: targetEnemy
       value: 
-      objectReference: {fileID: 1645043820}
+      objectReference: {fileID: 0}
     - target: {fileID: 5211445479217700459, guid: 22077dbef92bc9748b785b1501074506,
         type: 3}
       propertyPath: m_LocalPosition.x
