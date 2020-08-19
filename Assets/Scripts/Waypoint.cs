@@ -4,13 +4,21 @@ public class Waypoint : MonoBehaviour
 {
     public bool isExplored = false;
     public Waypoint exploredFrom;
+    public bool isPlaceable= true;
 
     const int gridSize = 11;
     public int GetGridSize() => gridSize;
 
     private void OnMouseOver()
     {
-        print("hovering over: " + gameObject.name);
+        if (Input.GetMouseButtonDown(0))
+        {
+            print("clicking: " + gameObject.name);
+            if (isPlaceable)
+            {
+                print("you can place tower in this block");
+            }
+        }
     }
 
     public Vector2Int GetGridPos() => new Vector2Int(
