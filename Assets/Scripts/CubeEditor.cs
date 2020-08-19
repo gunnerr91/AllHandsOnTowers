@@ -19,6 +19,7 @@ public class CubeEditor : MonoBehaviour
         UpdateLabel();
     }
 
+
     private void SnapToGrid()
     {
         int gridSize = waypoint.GetGridSize();

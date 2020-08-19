@@ -8,6 +8,11 @@ public class Waypoint : MonoBehaviour
     const int gridSize = 11;
     public int GetGridSize() => gridSize;
 
+    private void OnMouseOver()
+    {
+        print("hovering over: " + gameObject.name);
+    }
+
     public Vector2Int GetGridPos() => new Vector2Int(
         Mathf.RoundToInt(transform.position.x / gridSize),
         Mathf.RoundToInt(transform.position.z / gridSize)

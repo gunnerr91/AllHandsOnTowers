@@ -21,7 +21,6 @@ public class EnemyDamage : MonoBehaviour
     private void UpdateEnemyHp()
     {
         EnemyHP -= 1;
-        print("Enemy HP: " + EnemyHP);
     }
 
     private void KillEnemy()
