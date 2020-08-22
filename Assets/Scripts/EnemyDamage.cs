@@ -23,7 +23,7 @@ public class EnemyDamage : MonoBehaviour
     private void UpdateEnemyHp()
     {
         EnemyHP -= 1;
-        //hitParticlePrefab.Play();
+        hitParticlePrefab.Play();
     }
 
     private void KillEnemy()
