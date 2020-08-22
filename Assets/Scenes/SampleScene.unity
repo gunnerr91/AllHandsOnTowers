@@ -4018,11 +4018,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tower
       objectReference: {fileID: 0}
-    - target: {fileID: 5211445479217700458, guid: 22077dbef92bc9748b785b1501074506,
-        type: 3}
-      propertyPath: targetEnemy
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 5211445479217700459, guid: 22077dbef92bc9748b785b1501074506,
         type: 3}
       propertyPath: m_LocalPosition.x
