@@ -9,9 +9,15 @@ public class TowerFactory : MonoBehaviour
 
     public void AddTowers(Waypoint baseWaypoint)
     {
-
-        Vector3 positionToSpawn = new Vector3(baseWaypoint.transform.position.x, baseWaypoint.transform.position.y + 5.44f, baseWaypoint.transform.position.z + 4);
-        Instantiate(towerObject, positionToSpawn, Quaternion.identity);
-        baseWaypoint.isPlaceable = false;
+        if (FindObjectsOfType<Tower>().Length >= 4)
+        {
+            print("You have ran out of tower limit for this level");
+        }
+        else
+        {
+            Vector3 positionToSpawn = new Vector3(baseWaypoint.transform.position.x, baseWaypoint.transform.position.y + 5.44f, baseWaypoint.transform.position.z + 4);
+            Instantiate(towerObject, positionToSpawn, Quaternion.identity);
+            baseWaypoint.isPlaceable = false;
+        }
     }
 }
