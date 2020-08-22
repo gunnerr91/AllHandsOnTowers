@@ -11,6 +11,8 @@ public class Tower : MonoBehaviour
 
     Transform targetEnemy;
 
+    public Waypoint baseWaypoint;
+
     void Update()
     {
         SetTargetEnemy();

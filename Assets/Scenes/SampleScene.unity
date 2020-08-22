@@ -596,6 +596,36 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 291131918}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &339155176
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 339155177}
+  m_Layer: 0
+  m_Name: Towers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &339155177
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339155176}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 454606526}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &368961978
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -721,6 +751,7 @@ MonoBehaviour:
   secondsBetweenSpawns: 4.1
   enemyObject: {fileID: 224453633892430210, guid: a133922ad53c00b4fa3f7eba81e305ec,
     type: 3}
+  enemyParentTransform: {fileID: 397597572}
 --- !u!1001 &401120686
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -852,6 +883,7 @@ Transform:
   - {fileID: 1045492053}
   - {fileID: 976115935}
   - {fileID: 134762261}
+  - {fileID: 339155177}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -884,6 +916,7 @@ MonoBehaviour:
   towerLimit: 4
   towerObject: {fileID: 5211445479217700458, guid: 22077dbef92bc9748b785b1501074506,
     type: 3}
+  towerParentTransform: {fileID: 339155177}
 --- !u!1001 &485291299
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -947,36 +980,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 485291299}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &487574436
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 487574437}
-  m_Layer: 0
-  m_Name: Towers
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &487574437
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 487574436}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &516816950
 PrefabInstance:
   m_ObjectHideFlags: 0
