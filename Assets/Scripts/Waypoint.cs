@@ -5,7 +5,6 @@ public class Waypoint : MonoBehaviour
     public bool isExplored = false;
     public Waypoint exploredFrom;
     public bool isPlaceable= true;
-    [SerializeField] Tower towerObject;
 
     const int gridSize = 11;
     public int GetGridSize() => gridSize;
@@ -17,9 +16,7 @@ public class Waypoint : MonoBehaviour
             print("clicking: " + gameObject.name);
             if (isPlaceable)
             {
-                Vector3 positionToSpawn = new Vector3(transform.position.x, transform.position.y + 5.44f, transform.position.z + 4);
-                Instantiate(towerObject, positionToSpawn, Quaternion.identity);
-                isPlaceable = false;
+                FindObjectOfType<TowerFactory>().AddTowers(this);
             }
         }
     }
