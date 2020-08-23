@@ -20,7 +20,7 @@ public class SpawnEnemies : MonoBehaviour
 
     private void Update()
     {
-        gameScoreText.text = "Score: " + gameScore;
+        gameScoreText.text = "Score - " + gameScore;
     }
 
     IEnumerator SpawnEnemy()

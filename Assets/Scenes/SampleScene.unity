@@ -188,7 +188,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 6103ae2c853bfbc4d86bb7b87069e0ae, type: 3}
-    m_FontSize: 14
+    m_FontSize: 10
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -199,7 +199,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Base HP: 010'
+  m_Text: Score - 010
 --- !u!222 &34381122
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5488,7 +5488,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 6103ae2c853bfbc4d86bb7b87069e0ae, type: 3}
-    m_FontSize: 14
+    m_FontSize: 10
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -5499,7 +5499,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Base HP: 010'
+  m_Text: Base HP - 010
 --- !u!222 &1551458200
 CanvasRenderer:
   m_ObjectHideFlags: 0

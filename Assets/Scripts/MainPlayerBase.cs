@@ -24,7 +24,7 @@ public class MainPlayerBase : MonoBehaviour
 
     private void UpdatePlayerBaseHPText()
     {
-        playerBaseHPText.text = "Player base HP " + playerBaseHP;
+        playerBaseHPText.text = "Base HP - " + playerBaseHP;
     }
 
 }
