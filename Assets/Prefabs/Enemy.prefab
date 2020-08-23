@@ -77,7 +77,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 202981ec2017d0648953fff697cacde1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnemyHP: 20
+  EnemyHP: 10
   hitParticlePrefab: {fileID: 8802581889570766134, guid: 616b5a82226525e4087a842f50c6fa7c,
     type: 3}
   deathParticlePrefab: {fileID: 8895624915446006724, guid: 616b5a82226525e4087a842f50c6fa7c,
