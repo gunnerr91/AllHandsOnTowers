@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1289942997295908}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -32.40259, y: -3.08, z: -42.168793}
+  m_LocalPosition: {x: -32.40259, y: 1.36, z: -42.168793}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4370127362219154}
@@ -62,7 +62,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9eb260a8e6619a84eb01ee4d218011e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementPeriod: 0.88
+  movementPeriod: 0.8
   selfDestructPrefab: {fileID: 198537984209914932, guid: f8a9d0c4d083d3b42854d5905d658326,
     type: 3}
 --- !u!114 &1968342391118188099
@@ -77,10 +77,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 202981ec2017d0648953fff697cacde1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnemyHP: 10
-  hitParticlePrefab: {fileID: 8802581889570766134, guid: 616b5a82226525e4087a842f50c6fa7c,
+  EnemyHP: 2
+  hitParticlePrefab: {fileID: 198801791596541968, guid: dcf9cd10c07cf0c49863969befadb243,
     type: 3}
-  deathParticlePrefab: {fileID: 8895624915446006724, guid: 616b5a82226525e4087a842f50c6fa7c,
+  deathParticlePrefab: {fileID: 198537984209914932, guid: 1a51bfda454239a41afb7dee687c6ac0,
     type: 3}
 --- !u!1 &1646541640735296
 GameObject:
@@ -4922,7 +4922,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1650539954155832}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 4, z: 0}
+  m_LocalPosition: {x: -0, y: 0.01, z: 0}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children:
   - {fileID: 4424129853352454}

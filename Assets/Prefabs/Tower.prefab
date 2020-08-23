@@ -168,7 +168,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 300
+      scalar: 1000
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -4766,7 +4766,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8911753cfa884d541b3e1775b6ec2806, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4860,6 +4860,7 @@ MonoBehaviour:
   objectToPan: {fileID: 5214135154845299704}
   attackRange: 30
   projectileParticle: {fileID: 8759978453445514482}
+  baseWaypoint: {fileID: 0}
 --- !u!1001 &5211445478067114541
 PrefabInstance:
   m_ObjectHideFlags: 0
