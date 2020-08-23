@@ -1201,6 +1201,8 @@ MonoBehaviour:
   enemyObject: {fileID: 2828430679672675866, guid: 04f81ff9814844ccfa08226f8d46a3f4,
     type: 3}
   enemyParentTransform: {fileID: 397597572}
+  gameScore: 0
+  gameScoreText: {fileID: 34381121}
 --- !u!1001 &398305729
 PrefabInstance:
   m_ObjectHideFlags: 0
