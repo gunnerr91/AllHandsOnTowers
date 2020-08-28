@@ -1754,7 +1754,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dde5690e25503e4f824b933cec183ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerLimit: 4
+  towerLimit: 5
   towerObject: {fileID: 5211445479217700458, guid: 22077dbef92bc9748b785b1501074506,
     type: 3}
   towerParentTransform: {fileID: 339155177}
