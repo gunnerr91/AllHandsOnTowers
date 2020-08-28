@@ -9,6 +9,7 @@ public class MainPlayerBase : MonoBehaviour
     [SerializeField] int healthDecrease = 1;
 
     [SerializeField] Text playerBaseHPText;
+    [SerializeField] AudioClip playerDamageSFX;
 
     private void Start()
     {
@@ -18,6 +19,7 @@ public class MainPlayerBase : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         playerBaseHP -= healthDecrease;
+        GetComponent<AudioSource>().PlayOneShot(playerDamageSFX);
         print(playerBaseHP);
         UpdatePlayerBaseHPText();
     }

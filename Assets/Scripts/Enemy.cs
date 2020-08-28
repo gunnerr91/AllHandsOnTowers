@@ -30,7 +30,6 @@ public class Enemy : MonoBehaviour
     {
         var vfx = Instantiate(selfDestructPrefab, transform.position, Quaternion.identity);
         vfx.Play();
-
         Destroy(vfx.gameObject, vfx.main.duration);
         Destroy(gameObject);
     }
